@@ -31,7 +31,7 @@ public class BalanceReduction : MonoBehaviour
     }
     IEnumerator Delay()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         purchased.SetActive(false);
 
     }
